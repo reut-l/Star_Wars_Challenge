@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Star Jedi';
+  src: url('./utils/Starjedi.ttf') format('truetype');
+}
+
+body {
+  background-image: url('./utils/SW_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  font-family: arial;
+}
+
+h1,
+h2 {
+  color: #ffe81f;
+  font-family: 'Star Jedi', arial;
+}
+
+section {
+  border: 5px solid #ffe81f;
+  border-radius: 8px;
+  width: 80%;
+  min-width: calc(50vh + 520px);
+  height: fit-content;
+  position: relative;
+  margin: auto;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.task-body {
+  width: fit-content;
+  position: relative;
+  margin: 40px auto;
+}
+
+#barChart {
+  position: relative;
+  width: fit-content;
+  min-width: calc(50vh + 500px);
+  margin: auto;
+  height: 70vh;
+  box-sizing: border-box;
+  border-bottom: 2px solid #fff;
+  line-height: 16px;
+}
+
+table,
+th {
+  border: 2px solid #fff;
+  padding: 8px;
+}
+
+th,
+td {
+  padding: 16px;
+}
+
+td {
+  border: 1px solid #fff;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-transform: capitalize;
+}
+
+.bar-box {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: left;
+  position: relative;
+  top: calc(70vh + 18px);
+  transform: translateY(-100%);
+  margin: 0 5vh;
+}
+
+.bar {
+  width: 80px;
+  background-color: rgb(6, 51, 250);
+  margin: 4px;
+}
