@@ -85,7 +85,7 @@ const htmlTemplate =
     }
   });
 
-  //3. Get the largest bar and accordingly dinamically print the bar chart
+  //3. Get the largest bar and accordingly dynamically print the bar chart
   const largestPop = Math.max(...data.map((e) => e.population));
   const barChart = document.querySelector('#barChart');
 
